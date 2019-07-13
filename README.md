@@ -4,6 +4,7 @@ Juicy Potato for x86 Windows
 This is a version of [ohpe's Juicy Potato][1] privilege escalation exploit modified for x86 Windows. I preserved as much of the code as I could, while making small changes necessary to compile for x86 Windows. Tested successfully on Windows 7 SP1 x86 Build 7601.
 
 Edit/compile it with Visual Studio 2017 (v141) toolset. Use at your own peril.
+More [explanation here][2] on how to use it and how it works.
 
 ### Example usage
 
@@ -17,4 +18,5 @@ I had to comment out this line in `JuicyPotato x86.cpp` for it to work. It works
 si.lpDesktop = L"winsta0\\default";
 ```
 
-[1]: https://github.com/ohpe/juicy-potato 
+[1]: https://github.com/ohpe/juicy-potato
+[2]: https://hunter2.gitbook.io/darthsidious/privilege-escalation/juicy-potato
