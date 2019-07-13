@@ -1,0 +1,19 @@
+﻿  JuicyPotato x86.cpp
+c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(444): warning C4474: 'printf' : too many arguments passed for format string
+  c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(444): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(438): warning C4101: 'ntlmLoc': unreferenced local variable
+c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(609): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'wchar_t *'
+  c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(609): note: consider using '%ls' in the format string
+  c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(609): note: consider using '%lls' in the format string
+  c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(609): note: consider using '%Ls' in the format string
+  c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(609): note: consider using '%ws' in the format string
+c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(663): warning C4101: 'tkp': unreferenced local variable
+c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(664): warning C4101: 'sdSecurityDescriptor': unreferenced local variable
+c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(704): warning C4101: 'SessionId': unreferenced local variable
+c:\downloads\scan\juicy-potato-master\juicypotato\juicypotato\juicypotato x86.cpp(707): warning C4101: 'sa': unreferenced local variable
+  Generating code
+  1 of 192 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Juicy Potato x86.vcxproj -> C:\Downloads\Scan\Juicy Potato x86\Release\Juicy Potato x86.exe
