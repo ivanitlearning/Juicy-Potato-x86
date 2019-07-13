@@ -6,6 +6,8 @@ This is a version of [ohpe's Juicy Potato][1] privilege escalation exploit modif
 Edit/compile it with Visual Studio 2017 (v141) toolset. Use at your own peril.
 More [explanation here][2] on how to use it and how it works.
 
+P.S. I'm new to Github so forgive me if it looks awkward.
+
 ### Example usage
 
 ```
