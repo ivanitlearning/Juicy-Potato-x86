@@ -12,7 +12,7 @@ Edit/compile it with Visual Studio 2017 (v141) toolset. Use at your own peril.
 ```
 
 ### Stuff to figure out
-I had to comment out this line in 'JuicyPotato x86.cpp' for it to work. It works but I'm uncertain of its significance.
+I had to comment out this line in `JuicyPotato x86.cpp` for it to work. It works but I'm uncertain of its significance.
 ```
 si.lpDesktop = L"winsta0\\default";
 ```
