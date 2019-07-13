@@ -13,7 +13,7 @@ P.S. I'm new to Github so forgive me if it looks awkward.
 ```
 "Juicy Potato x86.exe" -l 4444 -p c:\windows\system32\cmd.exe -t * -c {6d18ad12-bde3-4393-b311-099c346e6df9}
 ```
-![How to use](https://github.com/ivanitlearning/Juicy-Potato-x86/blob/master/JuicyPotato.png)
+![How to use](https://github.com/ivanitlearning/Juicy-Potato-x86/blob/master/JuicyPotato-x86.png)
 
 
 ### Stuff to figure out
