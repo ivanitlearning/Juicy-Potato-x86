@@ -21,39 +21,36 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\dllmain.cpp">
+    <ClCompile Include="IStorageTrigger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\IStorageTrigger.cpp">
+    <ClCompile Include="JuicyPotato x86.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\LocalNegotiator.cpp">
+    <ClCompile Include="LocalNegotiator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\JuicyPotato x86.cpp">
+    <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\BlockingQueue.h">
+    <ClInclude Include="BlockingQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\IStorageTrigger.h">
+    <ClInclude Include="IStorageTrigger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\LocalNegotiator.h">
+    <ClInclude Include="LocalNegotiator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\MSFRottenPotato.h">
+    <ClInclude Include="MSFRottenPotato.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\stdafx.h">
+    <ClInclude Include=".">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\targetver.h">
+    <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

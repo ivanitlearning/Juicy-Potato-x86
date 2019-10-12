@@ -151,33 +151,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\dllmain.cpp">
-      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
-      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
-      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
-      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\IStorageTrigger.cpp" />
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\JuicyPotato x86.cpp" />
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\LocalNegotiator.cpp" />
-    <ClCompile Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\stdafx.cpp" />
+    <ClCompile Include="IStorageTrigger.cpp" />
+    <ClCompile Include="JuicyPotato x86.cpp" />
+    <ClCompile Include="LocalNegotiator.cpp" />
+    <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\BlockingQueue.h" />
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\IStorageTrigger.h" />
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\LocalNegotiator.h" />
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\MSFRottenPotato.h" />
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\stdafx.h" />
-    <ClInclude Include="..\..\juicy-potato-master\JuicyPotato\JuicyPotato\targetver.h" />
+    <ClInclude Include="BlockingQueue.h" />
+    <ClInclude Include="IStorageTrigger.h" />
+    <ClInclude Include="LocalNegotiator.h" />
+    <ClInclude Include="MSFRottenPotato.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
