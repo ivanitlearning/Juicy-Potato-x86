@@ -721,8 +721,7 @@ int Juicy(wchar_t *clsid, BOOL brute)
 			
 			std::wstring stemp = s2ws("winsta0\\default");
 			LPCWSTR result_tmp = stemp.c_str();
-			LPCWSTR str = result_tmp;
-			std::wstring tempStr(str);
+			std::wstring tempStr(result_tmp);
 
 			si.lpDesktop = &tempStr[0];
 
