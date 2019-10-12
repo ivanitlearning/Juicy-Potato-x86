@@ -17,10 +17,11 @@ P.S. I'm new to Github so forgive me if it looks awkward.
 
 
 ### Stuff to figure out
-I had to comment out this line in `JuicyPotato x86.cpp` for it to work. It works without it but I'm uncertain of its significance.
+~~I had to comment out this line in `JuicyPotato x86.cpp` for it to work. It works without it but I'm uncertain of its significance.~~
 ```
-si.lpDesktop = L"winsta0\\default";
+~~si.lpDesktop = L"winsta0\\default";~~
 ```
+**Updated**: The above line is no longer commented out but rewritten to preserve content.
 
 [1]: https://github.com/ohpe/juicy-potato
 [2]: https://hunter2.gitbook.io/darthsidious/privilege-escalation/juicy-potato
